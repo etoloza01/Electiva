@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Botón de Alerta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .alert-section {
+            text-align: center;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="alert-section">
+    <h2>Botón de Alerta</h2>
+    <button onclick="mostrarAlerta()">Haz clic aquí</button>
+</div>
+
+<script>
+    function mostrarAlerta() {
+        alert("¡Esto es una alerta!");
+    }
+</script>
+
+</body>
+</html>
 
